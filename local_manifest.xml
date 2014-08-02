@@ -11,6 +11,9 @@
            <project path="vendor/cm" name="MapleROM/vendor_maple" remote="github" revision="maple" />
            
            <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
+           
+           <remove-project name="CyanogenMod/android_frameworks_base" />
+           <project path="frameworks/base" name="MapleROM/frameworks_base" remote="github" revision="maple" />
 
            <!--- Devices supported --->
            <project name="pawitp/android_kernel_samsung_i9082" path="kernel/samsung/i9082" remote="github" revision="cm-11.0" />
