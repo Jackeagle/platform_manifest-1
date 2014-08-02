@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+           
+           <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+           <project path="packages/apps/Settings" name="MapleROM/packages_apps_Settings" revision="maple" />
+           
+           <remove-project name="Cyanogenmod/android_vendor_cm" />
+           <project path="vendor/maple" name="MapleROM/vendor_maple" revision="maple" />
+</manifest>
