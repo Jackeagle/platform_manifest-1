@@ -9,4 +9,20 @@
            
            <remove-project name="Cyanogenmod/android_vendor_cm" />
            <project path="vendor/maple" name="MapleROM/vendor_maple" revision="maple" />
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           <!--- Devices supported --->
+           <project name="pawitp/android_kernel_samsung_i9082" path="kernel/samsung/i9082" remote="github" revision="cm-11.0" />
+           <project name="xenon92/android_vendor_samsung_i9082" path="vendor/samsung/i9082" remote="github" revision="cm-11.0" />
+           <project name="pawitp/android_device_samsung_i9082" path="device/samsung/i9082" remote="github" revision="cm-11.0" />
 </manifest>
