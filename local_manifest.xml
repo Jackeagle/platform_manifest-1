@@ -11,9 +11,7 @@
            <project path="vendor/cm" name="MapleROM/vendor_maple" remote="github" revision="maple" />
            
            <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
-           <project path="packages/apps/cabinet" name="MapleROM/cabinet" remote="github" revision="master" />
-           
-           
+
            <!--- Devices supported --->
            <project name="pawitp/android_kernel_samsung_i9082" path="kernel/samsung/i9082" remote="github" revision="cm-11.0" />
            <project name="xenon92/android_vendor_samsung_i9082" path="vendor/samsung/i9082" remote="github" revision="cm-11.0" />
