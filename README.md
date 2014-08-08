@@ -3,7 +3,7 @@ MapleROM
 
 To get started
 ---------------
-     repo init -u git://github.com/MapleROM/platform_manifest.git -b maple
+     repo init -u git://github.com/MapleROM/platform_manifest.git -b master
      
 Furthermore,to start syncing
      
